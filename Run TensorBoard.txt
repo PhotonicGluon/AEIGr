@@ -1,1 +1,0 @@
-tensorboard --host 127.0.0.1 --logdir "/Users/Guest1/PycharmProjects/Image Generation/logs"
