@@ -241,7 +241,7 @@ if not os.path.isdir(OUTPUT_PATH):  # If it does not exist
 if not os.path.isdir(OUTPUT_PATH + str(EPOCHS) + " epochs/"):
     os.makedirs(OUTPUT_PATH + str(EPOCHS) + " epochs/")
 
-OUTPUT_PATH = OUTPUT_PATH + str(EPOCHS) + " epochs/" + str(datetime.now().strftime('%d-%m-%Y %H:%M')) + "/"
+OUTPUT_PATH = OUTPUT_PATH + str(EPOCHS) + " epochs/" + str(datetime.now().strftime('%d-%m-%Y %H%M')) + "/"
 
 os.makedirs(OUTPUT_PATH + "/Images/")  # For the images
 os.makedirs(OUTPUT_PATH + "/Model/")  # For the model
