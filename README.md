@@ -17,7 +17,7 @@ AutoEncoder Image Generation (AEIGr in short) is able to use an Autoencoder to t
 Note: Recommended version of Numpy: 1.13
 
 ***
-### Adknowldgements
+### Acknowledgements
 The sample image dataset included is the MNIST dataset.
 It was made [here](http://yann.lecun.com/exdb/mnist/) by some cool people.
 ***
